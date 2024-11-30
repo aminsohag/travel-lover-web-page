@@ -67,7 +67,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3rem 0 ;
+    margin: 3rem 0 6rem;
     border-radius: 1rem;
 }
 .banner-title{
@@ -93,7 +93,7 @@
     margin-top: 3rem;
 }
 
-input, select, button{
+input, select, .banner-btn{
     width: 165px;
     height: 50px;
     border-radius: 0.5rem;
@@ -110,3 +110,54 @@ input, select, button{
     justify-content: center;
     gap: 6px;
 }  
+
+
+/* main part */
+main{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+/* first section */
+.tour-text{
+    width: 45%;
+}
+.tour-image{
+    width: 45%;
+}
+.t-img{
+    width: 100%;
+}
+
+.tour-flex{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.tour-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: rgb(19,19,24, 100%);
+    margin-bottom: 1.5rem;
+}
+.tour-des{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: rgb(19,19,24, 70%);
+}
+.tour-des-li{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(19,19,24, 70%);
+}
+.tour-btn{
+    padding: 1rem;
+    background-color: #FF5400;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+.list{
+    padding-left: 1rem;
+}
