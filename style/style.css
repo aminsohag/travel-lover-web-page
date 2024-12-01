@@ -245,3 +245,52 @@ main{
     font-size: 1rem;
     color: #5A5A5D;
 }
+.card-section{
+    margin-bottom: 6rem;
+}
+
+/*  */
+.discount-1{
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.dis-img{
+   width: 100%;
+}
+.discount-card{
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(255, 255, 255, 0.80);
+    padding: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+.dis-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 1rem;
+}
+.dis-des{
+    font-size: 1rem;
+    color: #5A5A5D;
+    margin-bottom: 1rem;
+}
+.dis-des-taka{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #FF5400;
+    margin-bottom: 1rem;
+}
+.dis-btn{
+    background-color: #FF5400;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+
+}
