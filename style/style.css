@@ -164,7 +164,7 @@ main{
 
 /* Choose destination */
 .choose{
-    margin: 6rem 0 0;
+    margin: 6rem 0 ;
 }
 .choose-text{
     width: 643px;
@@ -209,4 +209,39 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+}
+.icon{
+    width: 7%;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.card-1{
+    width: 45%;
+    background-color: rgba(251, 181, 99, 0.2);
+    padding: 2rem 3rem 2rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+.c2{
+    background-color: rgba(41, 206, 246, 0.2);
+}
+.c3{
+    margin: 0 auto;
+}
+.ci2{
+    width: 12%;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 1rem 0; 
+    color: #131318;
+}
+.card-des{
+    font-size: 1rem;
+    color: #5A5A5D;
 }
