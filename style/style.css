@@ -402,3 +402,41 @@ main{
     left: 67%;
     transform: rotate(-26deg);
 }
+
+/* footer */
+footer{
+    background-color: rgb(19,19,24,5%);
+}
+.foot-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+#foot-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.foot-des{
+    font-size: 1rem;
+    color: #5A5A5D;
+    width: 750px;
+    margin-bottom: 2rem;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6rem 0;
+}
+.fo-ic{
+    margin-left: 1rem ;
+    margin-right: 1rem ;
+}
+.foot-icon{
+    margin-bottom: 2rem;
+}
+.foot-last{
+    margin-top: 2rem;
+}
