@@ -296,5 +296,48 @@ main{
     border: none;
     padding: 0.8rem;
     border-radius: 0.4rem;
+}
+.see-btn{
+    background-color: #FF5400;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem; 
+}
+.see{
+    text-align: center;
+    margin-bottom: 6rem;
+}
 
+/*  */
+.simple-part{
+    display: flex;
+    justify-content: space-between;
+}
+.simple{
+    width: 48%;
+}
+.simple img{
+    width: 100%;
+}
+.simple h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 1.5rem;
+}
+.simple p{
+    color: #5A5A5D;
+    margin-bottom: 1.5rem;
+}
+.simple ul li{
+   margin-left: 1rem;
+   margin-bottom: 1rem;
+}
+.simple button{
+    background-color: #FF5400;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
 }
